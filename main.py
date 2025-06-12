@@ -1,7 +1,8 @@
 # 1. 설치 (최초 1회만)
-
+'''
 !pip install transformers
 !pip install torch
+'''
 
 # 2. 라이브러리 로딩
 
