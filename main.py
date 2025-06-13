@@ -1,7 +1,7 @@
 # 1. 설치 (최초 1회만)
 '''
-!pip install transformers
-!pip install torch
+pip install transformers # 주피터 노트북은 pip 앞에 ! 붙이기
+pip install torch
 '''
 
 # 2. 라이브러리 로딩
