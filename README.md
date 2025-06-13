@@ -34,6 +34,7 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForSeque
 import torch
 import torch.nn.functional as F
 
+**
 # 입력: 영어 뉴스 기사(여기 코드에다가 뉴스 원문 입력)
 
 text = """
@@ -41,6 +42,7 @@ Apple has announced a new line of products during their Worldwide Developers Con
 including a new generation of M-series chips and the release date for the long-awaited Vision Pro headset.
 Industry analysts believe this marks a major step forward for Apple in the competitive tech landscape.
 """
+**
 
 # 요약 모델: T5-small
 
