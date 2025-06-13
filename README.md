@@ -30,6 +30,17 @@ pip install transformers
 pip install torch
 ```
 
+# 파일 실행 방법
+vscode에서 직접 실행하거나
+
+만약 vscode에서 shift + enter에 오류가 있을 시에
+
+터미널에 입력하여 파일 실행
+
+```
+python main.py
+```
+
 # 사용 예시
 ```
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForSequenceClassification
