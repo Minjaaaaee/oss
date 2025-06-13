@@ -25,6 +25,5 @@ distilbert-base-uncased 모델을 사용해 입력 기사의 감정을 "POSITIVE
 # 설치 방법
 ```
 pip install transformers
-
 pip install torch
 ```
