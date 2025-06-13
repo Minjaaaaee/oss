@@ -1,5 +1,3 @@
-# oss
-
 # 프로젝트 소개
 이 소프트웨어는 영어 뉴스 기사를 입력하면,
 
@@ -9,13 +7,21 @@ DistilBERT 기반 모델로 감정(긍정/부정) 분석을 수행합니다.
 
 # 주요 기능
 **영어 뉴스 기사 입력**
+
 사용자가 입력한 영어 기사를 처리합니다.
 
 **자동 요약**
+
 Hugging Face의 t5-small 모델로 기사의 핵심 내용을 1~2문장으로 요약합니다.
 
 **감정 분석**
+
 distilbert-base-uncased 모델을 사용해 입력 기사의 감정을 "POSITIVE" 또는 "NEGATIVE"로 분류하고, 신뢰도 점수(Confidence)도 제공합니다.
 
 **결과 출력**
+
 원문, 요약문, 감정 분석 결과(라벨/신뢰도)를 출력합니다.
+
+# 설치 방법
+pip install transformers
+pip install torch
