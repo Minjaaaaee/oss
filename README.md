@@ -8,7 +8,7 @@ DistilBERT 기반 모델로 감정(긍정/부정) 분석을 수행합니다.
 # 주요 기능
 **1. 영어 뉴스 기사 입력**
 
-사용자가 입력한 영어 기사를 처리합니다.
+사용자가 입력한 영어 기사를 처리합니다.(한국어 X, 영어만 가능)
 
 **2. 자동 요약**
 
@@ -48,7 +48,7 @@ import torch
 import torch.nn.functional as F
 
 ******************************************
-# 입력: 영어 뉴스 기사(여기 코드에다가 뉴스 원문 입력)
+# 입력: 영어 뉴스 기사(여기 코드 수정하고 영어 뉴스 원문 입력)
 
 text = """
 Apple has announced a new line of products during their Worldwide Developers Conference,
