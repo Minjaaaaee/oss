@@ -23,5 +23,6 @@ distilbert-base-uncased 모델을 사용해 입력 기사의 감정을 "POSITIVE
 원문, 요약문, 감정 분석 결과(라벨/신뢰도)를 출력합니다.
 
 # 설치 방법
-pip install transformers
-pip install torch
+\`\`\`pip install transformers
+
+\`\`\`pip install torch
